@@ -1,0 +1,36 @@
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  list-style: none;
+}
+
+.contactList {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  column-gap: 10px;
+}
+
+.contact svg {
+  margin-right: 8px;
+}
+
+.number {
+  font-weight: 500;
+}
+
+.button {
+  width: 60px;
+  background: #919191;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: #761a1a;
+  }
+}
